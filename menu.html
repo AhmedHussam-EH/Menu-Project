@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <title>Our-Menu</title>
+</head>
+    <body onload="populatePage()">
+        <h1>Our Menu</h1>
+        <hr>
+        <nav>
+            <button onclick="filterMenu(this);">All</button>
+            <button onclick="filterMenu(this);">breakfast</button>
+            <button onclick="filterMenu(this);">lunch</button>
+            <button onclick="filterMenu(this);">shakes</button>
+            <button onclick="filterMenu(this);">dinner</button>
+            <button onclick="filterMenu(this);">drinks</button>
+        </nav>
+
+        <main id="Page-content"></main>
+
+        
+        <script src="menu.js"></script>
+    </body>
+</html>
